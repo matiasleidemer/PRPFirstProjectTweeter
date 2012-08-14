@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		605140D615D9E92400FC1D56 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 605140D515D9E92400FC1D56 /* Twitter.framework */; };
+		6071C2DF15D9D44F0061F6F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6071C2DE15D9D44F0061F6F5 /* UIKit.framework */; };
+		6071C2E115D9D44F0061F6F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6071C2E015D9D44F0061F6F5 /* Foundation.framework */; };
+		6071C2E315D9D44F0061F6F5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6071C2E215D9D44F0061F6F5 /* CoreGraphics.framework */; };
+		6071C2E915D9D44F0061F6F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6071C2E715D9D44F0061F6F5 /* InfoPlist.strings */; };
+		6071C2EB15D9D44F0061F6F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6071C2EA15D9D44F0061F6F5 /* main.m */; };
+		6071C2EF15D9D44F0061F6F5 /* PRPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6071C2EE15D9D44F0061F6F5 /* PRPAppDelegate.m */; };
+		6071C2F215D9D44F0061F6F5 /* PRPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6071C2F115D9D44F0061F6F5 /* PRPViewController.m */; };
+		6071C2F515D9D44F0061F6F5 /* PRPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6071C2F315D9D44F0061F6F5 /* PRPViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		605140D515D9E92400FC1D56 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		6071C2DA15D9D44F0061F6F5 /* PRPFirstProjectTweeter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PRPFirstProjectTweeter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6071C2DE15D9D44F0061F6F5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6071C2E015D9D44F0061F6F5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6071C2E215D9D44F0061F6F5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6071C2E615D9D44F0061F6F5 /* PRPFirstProjectTweeter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PRPFirstProjectTweeter-Info.plist"; sourceTree = "<group>"; };
+		6071C2E815D9D44F0061F6F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6071C2EA15D9D44F0061F6F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6071C2EC15D9D44F0061F6F5 /* PRPFirstProjectTweeter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PRPFirstProjectTweeter-Prefix.pch"; sourceTree = "<group>"; };
+		6071C2ED15D9D44F0061F6F5 /* PRPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PRPAppDelegate.h; sourceTree = "<group>"; };
+		6071C2EE15D9D44F0061F6F5 /* PRPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PRPAppDelegate.m; sourceTree = "<group>"; };
+		6071C2F015D9D44F0061F6F5 /* PRPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PRPViewController.h; sourceTree = "<group>"; };
+		6071C2F115D9D44F0061F6F5 /* PRPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PRPViewController.m; sourceTree = "<group>"; };
+		6071C2F415D9D44F0061F6F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PRPViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6071C2D715D9D44F0061F6F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				605140D615D9E92400FC1D56 /* Twitter.framework in Frameworks */,
+				6071C2DF15D9D44F0061F6F5 /* UIKit.framework in Frameworks */,
+				6071C2E115D9D44F0061F6F5 /* Foundation.framework in Frameworks */,
+				6071C2E315D9D44F0061F6F5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6071C2CF15D9D44F0061F6F5 = {
+			isa = PBXGroup;
+			children = (
+				6071C2E415D9D44F0061F6F5 /* PRPFirstProjectTweeter */,
+				6071C2DD15D9D44F0061F6F5 /* Frameworks */,
+				6071C2DB15D9D44F0061F6F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6071C2DB15D9D44F0061F6F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6071C2DA15D9D44F0061F6F5 /* PRPFirstProjectTweeter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6071C2DD15D9D44F0061F6F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				605140D515D9E92400FC1D56 /* Twitter.framework */,
+				6071C2DE15D9D44F0061F6F5 /* UIKit.framework */,
+				6071C2E015D9D44F0061F6F5 /* Foundation.framework */,
+				6071C2E215D9D44F0061F6F5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6071C2E415D9D44F0061F6F5 /* PRPFirstProjectTweeter */ = {
+			isa = PBXGroup;
+			children = (
+				6071C2ED15D9D44F0061F6F5 /* PRPAppDelegate.h */,
+				6071C2EE15D9D44F0061F6F5 /* PRPAppDelegate.m */,
+				6071C2F015D9D44F0061F6F5 /* PRPViewController.h */,
+				6071C2F115D9D44F0061F6F5 /* PRPViewController.m */,
+				6071C2F315D9D44F0061F6F5 /* PRPViewController.xib */,
+				6071C2E515D9D44F0061F6F5 /* Supporting Files */,
+			);
+			path = PRPFirstProjectTweeter;
+			sourceTree = "<group>";
+		};
+		6071C2E515D9D44F0061F6F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6071C2E615D9D44F0061F6F5 /* PRPFirstProjectTweeter-Info.plist */,
+				6071C2E715D9D44F0061F6F5 /* InfoPlist.strings */,
+				6071C2EA15D9D44F0061F6F5 /* main.m */,
+				6071C2EC15D9D44F0061F6F5 /* PRPFirstProjectTweeter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6071C2D915D9D44F0061F6F5 /* PRPFirstProjectTweeter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6071C2F815D9D44F0061F6F5 /* Build configuration list for PBXNativeTarget "PRPFirstProjectTweeter" */;
+			buildPhases = (
+				6071C2D615D9D44F0061F6F5 /* Sources */,
+				6071C2D715D9D44F0061F6F5 /* Frameworks */,
+				6071C2D815D9D44F0061F6F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PRPFirstProjectTweeter;
+			productName = PRPFirstProjectTweeter;
+			productReference = 6071C2DA15D9D44F0061F6F5 /* PRPFirstProjectTweeter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6071C2D115D9D44F0061F6F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PRP;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Matias Leidemer";
+			};
+			buildConfigurationList = 6071C2D415D9D44F0061F6F5 /* Build configuration list for PBXProject "PRPFirstProjectTweeter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6071C2CF15D9D44F0061F6F5;
+			productRefGroup = 6071C2DB15D9D44F0061F6F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6071C2D915D9D44F0061F6F5 /* PRPFirstProjectTweeter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6071C2D815D9D44F0061F6F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6071C2E915D9D44F0061F6F5 /* InfoPlist.strings in Resources */,
+				6071C2F515D9D44F0061F6F5 /* PRPViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6071C2D615D9D44F0061F6F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6071C2EB15D9D44F0061F6F5 /* main.m in Sources */,
+				6071C2EF15D9D44F0061F6F5 /* PRPAppDelegate.m in Sources */,
+				6071C2F215D9D44F0061F6F5 /* PRPViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6071C2E715D9D44F0061F6F5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6071C2E815D9D44F0061F6F5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6071C2F315D9D44F0061F6F5 /* PRPViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6071C2F415D9D44F0061F6F5 /* en */,
+			);
+			name = PRPViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6071C2F615D9D44F0061F6F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6071C2F715D9D44F0061F6F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6071C2F915D9D44F0061F6F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PRPFirstProjectTweeter/PRPFirstProjectTweeter-Prefix.pch";
+				INFOPLIST_FILE = "PRPFirstProjectTweeter/PRPFirstProjectTweeter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6071C2FA15D9D44F0061F6F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PRPFirstProjectTweeter/PRPFirstProjectTweeter-Prefix.pch";
+				INFOPLIST_FILE = "PRPFirstProjectTweeter/PRPFirstProjectTweeter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6071C2D415D9D44F0061F6F5 /* Build configuration list for PBXProject "PRPFirstProjectTweeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6071C2F615D9D44F0061F6F5 /* Debug */,
+				6071C2F715D9D44F0061F6F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6071C2F815D9D44F0061F6F5 /* Build configuration list for PBXNativeTarget "PRPFirstProjectTweeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6071C2F915D9D44F0061F6F5 /* Debug */,
+				6071C2FA15D9D44F0061F6F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6071C2D115D9D44F0061F6F5 /* Project object */;
+}
