@@ -16,6 +16,7 @@
 		6071C2EF15D9D44F0061F6F5 /* PRPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6071C2EE15D9D44F0061F6F5 /* PRPAppDelegate.m */; };
 		6071C2F215D9D44F0061F6F5 /* PRPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6071C2F115D9D44F0061F6F5 /* PRPViewController.m */; };
 		6071C2F515D9D44F0061F6F5 /* PRPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6071C2F315D9D44F0061F6F5 /* PRPViewController.xib */; };
+		60CA7A4615DF43210079772B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 60CA7A4815DF43210079772B /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,10 @@
 		6071C2F015D9D44F0061F6F5 /* PRPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PRPViewController.h; sourceTree = "<group>"; };
 		6071C2F115D9D44F0061F6F5 /* PRPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PRPViewController.m; sourceTree = "<group>"; };
 		6071C2F415D9D44F0061F6F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PRPViewController.xib; sourceTree = "<group>"; };
+		60CA7A4115DF40630079772B /* pt */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pt; path = pt.lproj/PRPViewController.xib; sourceTree = "<group>"; };
+		60CA7A4215DF40630079772B /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		60CA7A4715DF43210079772B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		60CA7A4915DF43610079772B /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +103,7 @@
 				6071C2E715D9D44F0061F6F5 /* InfoPlist.strings */,
 				6071C2EA15D9D44F0061F6F5 /* main.m */,
 				6071C2EC15D9D44F0061F6F5 /* PRPFirstProjectTweeter-Prefix.pch */,
+				60CA7A4815DF43210079772B /* Localizable.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +144,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				pt,
 			);
 			mainGroup = 6071C2CF15D9D44F0061F6F5;
 			productRefGroup = 6071C2DB15D9D44F0061F6F5 /* Products */;
@@ -156,6 +163,7 @@
 			files = (
 				6071C2E915D9D44F0061F6F5 /* InfoPlist.strings in Resources */,
 				6071C2F515D9D44F0061F6F5 /* PRPViewController.xib in Resources */,
+				60CA7A4615DF43210079772B /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,6 +187,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				6071C2E815D9D44F0061F6F5 /* en */,
+				60CA7A4215DF40630079772B /* pt */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -187,8 +196,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				6071C2F415D9D44F0061F6F5 /* en */,
+				60CA7A4115DF40630079772B /* pt */,
 			);
 			name = PRPViewController.xib;
+			sourceTree = "<group>";
+		};
+		60CA7A4815DF43210079772B /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60CA7A4715DF43210079772B /* en */,
+				60CA7A4915DF43610079772B /* pt */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

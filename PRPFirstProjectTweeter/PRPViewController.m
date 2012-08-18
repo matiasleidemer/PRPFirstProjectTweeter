@@ -15,6 +15,9 @@
 
 @implementation PRPViewController
 
+//property name = instance variable name
+@synthesize twitterWebView = _twitterWebView;
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -35,11 +38,20 @@
 - (IBAction)handleTweetButtonTapped:(id)sender {
     if ([TWTweetComposeViewController canSendTweet]) {
         TWTweetComposeViewController *tweetVC = [[TWTweetComposeViewController alloc] init];
-        [tweetVC setInitialText:@"I just finished the first project in iOS SDK Development. #pragsios"];
+        [tweetVC setInitialText: NSLocalizedString(@"I just finished the first project in iOS SDK Development. #meganti", nil)];
         [self presentViewController:tweetVC animated:YES completion:NULL];
     } else {
         NSLog(@"Can't send tweet");
     }
 }
+
+- (IBAction)handleShowMyTweetsTapped:(id)sender {
+    NSURL *url = [NSURL URLWithString:@"http://www.twitter.com/matiasleidemer"];
+    NSURLRequest *request = [NSURLRequest requestWithURL:url];
+    [self.twitterWebView loadRequest:request];
+}
+
+
+
 
 @end
